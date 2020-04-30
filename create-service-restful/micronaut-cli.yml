@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: create.service.restful
+---
+testFramework: junit
+sourceLanguage: java

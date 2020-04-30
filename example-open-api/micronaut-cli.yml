@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: example.open.api
+---
+testFramework: junit
+sourceLanguage: java

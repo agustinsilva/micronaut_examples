@@ -1,0 +1,5 @@
+micronaut:
+  application:
+    name: create-service-restful
+  server:
+    port: 8500
