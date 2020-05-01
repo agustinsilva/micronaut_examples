@@ -13,8 +13,8 @@
 
 #### En intellij
 
-Ingresar a * File > Settings > Build,Execution,Deployment > Annotation Processors * y seleccionar *Enable annotation processing* , luego seleccionar *Apply*.
-
+1. Ingresar a * File > Settings > Build,Execution,Deployment > Annotation Processors * y seleccionar *Enable annotation processing* , luego seleccionar *Apply*.
+2. Instalalar lombok. Ir a File > Settings > Plugins. Buscar el plugin de Lombok. Presionar Instalar y reiniciar la IDE.
 #### En visual studio code
 
 1. Ingresar a [Visual Studio Code](https://code.visualstudio.com/) para descargar el IDE.

@@ -10,7 +10,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 
     @Override
     public EmployeeDTO getEmployee(String id) {
-        EmployeeDTO employee = new EmployeeDTO("15","a",1);
+        EmployeeDTO employee = new EmployeeDTO(id,"a",1);
         return employee;
     }
 

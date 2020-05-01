@@ -21,11 +21,13 @@ configurations {
 
 dependencies {
     compile 'org.projectlombok:lombok:1.18.12'
+    annotationProcessor("io.micronaut.configuration:micronaut-openapi:1.4.5")
     annotationProcessor "org.projectlombok:lombok:1.18.12"
     annotationProcessor platform("io.micronaut:micronaut-bom:$micronautVersion")
     annotationProcessor "io.micronaut:micronaut-inject-java"
     annotationProcessor "io.micronaut:micronaut-validation"
     implementation platform("io.micronaut:micronaut-bom:$micronautVersion")
+    implementation("io.swagger.core.v3:swagger-annotations")
     implementation "io.micronaut:micronaut-inject"
     implementation "io.micronaut:micronaut-validation"
     implementation "io.micronaut:micronaut-runtime"
