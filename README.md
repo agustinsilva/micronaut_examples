@@ -28,3 +28,11 @@ A continuación se lista en orden los ejemplos generados en este repositorio:
 
 1. create-service-restful
 Explica como armar un servicio rest basico.
+
+## Inicializar Zipkin con Docker
+
+docker run -d -p 9411:9411 --name zipkin openzipkin/zipkin
+
+## Inicializar Consul con Docker
+
+docker run -d -p 8500:8500 --name consul consul
