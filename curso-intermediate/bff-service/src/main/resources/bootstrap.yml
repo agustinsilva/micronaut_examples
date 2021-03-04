@@ -1,0 +1,16 @@
+micronaut:
+  application:
+    name: bff-service
+  config-client:
+    enabled: true
+consul:
+  client:
+    defaultZone: "${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}"
+spring:
+  cloud:
+    consul:
+      config:
+        enabled: true
+        prefix: config
+        defaultContext: application
+        profileSeparator: '::'
